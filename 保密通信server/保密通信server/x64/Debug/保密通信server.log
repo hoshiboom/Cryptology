@@ -1,0 +1,18 @@
+﻿  server.cpp
+D:\personal_project\vs2022\保密通信server\保密通信server\bigInt.h(37,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\personal_project\vs2022\保密通信server\保密通信server\bigInt.h(60,21): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\personal_project\vs2022\保密通信server\保密通信server\AES.h(213,9): warning C4101: “i”: 未引用的局部变量
+D:\personal_project\vs2022\保密通信server\保密通信server\AES.h(407,14): warning C4101: “keysize”: 未引用的局部变量
+D:\personal_project\vs2022\保密通信server\保密通信server\AES.h(459,14): warning C4101: “keysize”: 未引用的局部变量
+D:\personal_project\vs2022\保密通信server\保密通信server\server.cpp(70,29): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\personal_project\vs2022\保密通信server\保密通信server\server.cpp(95,34): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\personal_project\vs2022\保密通信server\保密通信server\server.cpp(130,55): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+D:\personal_project\vs2022\保密通信server\保密通信server\server.cpp(144,55): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+D:\personal_project\vs2022\保密通信server\保密通信server\server.cpp(345,53): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+D:\personal_project\vs2022\保密通信server\保密通信server\server.cpp(357,53): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+D:\personal_project\vs2022\保密通信server\保密通信server\server.cpp(320,12): warning C4101: “temp”: 未引用的局部变量
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+server.obj : warning LNK4006: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl bigInt2string(class bigInt)" (?bigInt2string@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VbigInt@@@Z) 已在 bigInt.obj 中定义；已忽略第二个定义
+server.obj : warning LNK4006: "class bigInt __cdecl string2bigInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?string2bigInt@@YA?AVbigInt@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 已在 bigInt.obj 中定义；已忽略第二个定义
+D:\personal_project\vs2022\保密通信server\x64\Debug\保密通信server.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+  保密通信server.vcxproj -> D:\personal_project\vs2022\保密通信server\x64\Debug\保密通信server.exe
